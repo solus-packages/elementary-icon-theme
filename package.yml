@@ -1,8 +1,8 @@
 name        : elementary-icon-theme
-version     : 3.2.1
-release     : 6
+version     : 3.2.2
+release     : 7
 source     :
-    - https://launchpad.net/elementaryicons/3.x/3.2.1/+download/elementary-icon-theme-3.2.1.tgz : 3877a80c1428da9e6a3c97327ad17510271f729a2d7c162f13aafca225a1672f
+    - https://launchpad.net/elementaryicons/3.x/3.2.2/+download/elementary-icon-theme-3.2.2.tar.xz : ed3a566fe925ef1881622fcb5df6a1a112115fc5c22068aa5231f76f4db4ebf2
 license     : GPL-2.0+
 summary     : An icon theme designed to be smooth, sexy, clear, and efficient.
 description : |
