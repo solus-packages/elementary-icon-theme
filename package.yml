@@ -1,15 +1,13 @@
-name        : elementary-icon-theme
-version     : 4.0.1
-release     : 8
+name       : elementary-icon-theme
+version    : 4.0.3
+release    : 9
 source     :
-    - https://launchpad.net/elementaryicons/4.x/4.0.1/+download/elementary-icon-theme-4.0.1.tar.xz : 344fdd9c2469a374308d339d17156d735ec57280eb0199f5ca6676ec525b6f31
-license     : GPL-3.0
-component   : desktop.theme
-summary     : An icon theme designed to be smooth, sexy, clear, and efficient.
-description : |
+    - https://launchpad.net/elementaryicons/4.x/4.0.3/+download/elementary-icon-theme-4.0.3.tar.xz : abd39e18a5782d05afc7a44de56802e1245e371cdbf9eab569e6111f39b86c44
+license    : GPL-3.0
+component  : desktop.theme
+summary    : An icon theme designed to be smooth, sexy, clear, and efficient.
+description: |
     An icon theme designed to be smooth, sexy, clear, and efficient.
-setup      : |
-build      : |
 install    : |
     mkdir -p %installroot%/usr/share/icons/elementary/
     mkdir -p %installroot%/usr/share/doc/elementary-icon-theme/
