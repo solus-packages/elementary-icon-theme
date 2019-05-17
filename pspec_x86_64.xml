@@ -2,15 +2,15 @@
     <Source>
         <Name>elementary-icon-theme</Name>
         <Packager>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.theme</PartOf>
         <Summary xml:lang="en">An icon theme designed to be smooth, sexy, clear, and efficient.</Summary>
         <Description xml:lang="en">An icon theme designed to be smooth, sexy, clear, and efficient.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>elementary-icon-theme</Name>
@@ -61,10 +61,14 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/128/window-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/address-book-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-horizontal-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/align-horizontal-left-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-horizontal-left.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/align-horizontal-right-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-horizontal-right.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/align-vertical-bottom-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-vertical-bottom.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-vertical-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/align-vertical-top-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/align-vertical-top.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/appointment-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/bookmark-new.svg</Path>
@@ -73,8 +77,13 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/16/call-start.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/call-stop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/contact-new.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-horizontal-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-horizontal-gaps.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-horizontal-left.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-horizontal-right.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-vertical-bottom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-vertical-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-vertical-gaps.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/distribute-vertical-top.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/document-edit.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/document-new.svg</Path>
@@ -136,6 +145,8 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-forward-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-forward.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-mark-important.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-mark-junk.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-mark-notjunk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-reply-all-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-reply-all.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/mail-reply-sender-rtl.svg</Path>
@@ -176,6 +187,13 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/16/object-to-path.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/object-ungroup.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/open-menu.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-break-apart.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-combine.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-difference.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-division.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-exclusion.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-intersection.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/16/path-union.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/process-stop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/segment-curve.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/16/segment-line.svg</Path>
@@ -202,8 +220,15 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/16/zoom-out.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/address-book-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/align-horizontal-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-horizontal-left-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/align-horizontal-left.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-horizontal-right-to-anchor.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/align-horizontal-right.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-vertical-bottom-to-anchor.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-vertical-bottom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-vertical-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-vertical-top-to-anchor.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/align-vertical-top.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/appointment-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/appointment-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/bookmark-new.svg</Path>
@@ -212,6 +237,14 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/24/color-gradient-mesh.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/color-gradient.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/contact-new.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-horizontal-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-horizontal-gaps.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-horizontal-left.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-horizontal-right.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-vertical-bottom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-vertical-center.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-vertical-gaps.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/distribute-vertical-top.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/document-edit.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/document-export-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/document-export-symbolic-rtl.svg</Path>
@@ -317,6 +350,8 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-archive.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-forward-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-forward.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-mark-junk.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-mark-notjunk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-message-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-move.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mail-reply-all-rtl.svg</Path>
@@ -350,17 +385,26 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/24/mesh-gradient.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-flip-horizontal.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-flip-vertical.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/object-group.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-inverse.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-merge.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-rotate-left.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-rotate-right.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/object-straighten.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/object-ungroup.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/open-menu-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/open-menu.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/pane-hide-symbolic-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/pane-hide-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/pane-show-symbolic-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/pane-show-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-break-apart.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-combine.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-difference.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-division.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-exclusion.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-intersection.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/24/path-union.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/process-stop-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/process-stop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/24/selection-add.svg</Path>
@@ -428,6 +472,8 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/32/list-remove.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-forward-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-forward.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-mark-junk.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-mark-notjunk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-reply-all-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-reply-all.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/32/mail-reply-sender-rtl.svg</Path>
@@ -519,6 +565,8 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-archive.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-forward-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-forward.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-mark-junk.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-mark-notjunk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-all-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-all.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-sender-rtl.svg</Path>
@@ -601,13 +649,15 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/action-unavailable-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/address-book-new-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-center-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-left-symbolic-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-left-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-right-symbolic-rtl.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-left-to-anchor-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-right-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-horizontal-right-to-anchor-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-vertical-bottom-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-vertical-bottom-to-anchor-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-vertical-center-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-vertical-top-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/align-vertical-top-to-anchor-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/application-add-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/application-exit-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/application-menu-symbolic.svg</Path>
@@ -713,6 +763,7 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-forward-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-mark-important-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-mark-junk-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-mark-notjunk-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-message-new-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-move-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/mail-reply-all-symbolic-rtl.svg</Path>
@@ -741,10 +792,12 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/media-view-subtitles-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-flip-horizontal-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-flip-vertical-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-group-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-inverse-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-rotate-left-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-rotate-right-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-select-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/object-ungroup-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/open-menu-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/pan-down-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/pan-end-symbolic-rtl.svg</Path>
@@ -756,6 +809,13 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/pane-hide-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/pane-show-symbolic-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/pane-show-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-break-apart-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-combine-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-difference-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-division-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-exclusion-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-intersection-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/path-union-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/process-stop-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/selection-bottom-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/symbolic/selection-end-symbolic-rtl.svg</Path>
@@ -1277,6 +1337,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/128/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/128/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/drive-optical.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/drive-removable-media-usb.svg</Path>
@@ -1306,6 +1367,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/16/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/16/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/16/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/16/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/16/drive-harddisk-usb.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/16/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/16/drive-optical.svg</Path>
@@ -1346,6 +1408,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/24/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/24/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/24/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/24/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/24/drive-harddisk-usb.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/24/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/24/drive-optical.svg</Path>
@@ -1386,6 +1449,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/32/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/32/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/drive-harddisk-usb.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/drive-optical.svg</Path>
@@ -1396,6 +1460,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/32/input-keyboard.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/input-mouse.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/input-tablet.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/32/input-touchpad.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/media-cdr.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/media-cdrom.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/32/media-cdrw.svg</Path>
@@ -1451,6 +1516,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/48/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/48/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/48/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/48/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/48/drive-harddisk-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/48/drive-harddisk-usb.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/48/drive-harddisk.svg</Path>
@@ -1510,6 +1576,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/64/computer-laptop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/64/computer.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/64/drive-cdrom.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/64/drive-harddisk-solidstate.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/64/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/64/drive-optical.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/64/drive-removable-media-usb.svg</Path>
@@ -1700,6 +1767,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-executable.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-gnumeric.svg</Path>
@@ -1875,6 +1943,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-fictionbook+xml.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-gnumeric.svg</Path>
@@ -2056,6 +2125,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-fictionbook+xml.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-gnumeric.svg</Path>
@@ -2241,6 +2311,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-fictionbook+xml.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-gnumeric.svg</Path>
@@ -2424,6 +2495,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-fictionbook+xml.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-gnumeric.svg</Path>
@@ -2608,6 +2680,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-fictionbook+xml.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-firmware.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-flash-video.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-generic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-gnome-theme-package-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-gnome-theme-package.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-gnumeric.svg</Path>
@@ -3080,6 +3153,8 @@
             <Path fileType="data">/usr/share/icons/elementary/status/16/mail-replied.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/16/mail-unread.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/16/network-wireless-encrypted.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/16/night-light-disabled-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/16/night-light-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/16/nm-signal-0-secure.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/16/nm-signal-0.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/16/nm-signal-00-secure.svg</Path>
@@ -3159,6 +3234,15 @@
             <Path fileType="data">/usr/share/icons/elementary/status/24/mail-forwarded.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/24/mail-replied-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/24/mail-replied.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-10-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-20-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-30-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-40-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-50-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-60-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-70-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-80-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-90-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/24/microphone-sensitivity-muted-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/24/network-cellular-acquiring-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/24/network-cellular-connected-symbolic.svg</Path>
@@ -3429,6 +3513,7 @@
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/folder-visiting-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/image-loading-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/input-keyboard-capslock-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/input-keyboard-numlock-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/keyboard-brightness-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-attachment-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-important-symbolic.svg</Path>
@@ -3539,13 +3624,21 @@
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-clear-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-few-clouds-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-few-clouds-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-fog-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-fog-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-overcast-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-overcast-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-severe-alert-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-showers-night-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-showers-scattered-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-showers-scattered-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-showers-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-snow-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-snow-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-storm-night-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-storm-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-storm-tornado-night-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-storm-tornado-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/weather-windy-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status@2x</Path>
             <Path fileType="data">/usr/share/icons/elementary/status@3x</Path>
@@ -3553,12 +3646,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2019-02-04</Date>
-            <Version>5.0.2</Version>
+        <Update release="12">
+            <Date>2019-05-17</Date>
+            <Version>5.0.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jacob Alzén</Name>
-            <Email>jacob.alzen@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
