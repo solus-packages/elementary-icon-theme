@@ -2,8 +2,8 @@
     <Source>
         <Name>elementary-icon-theme</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.theme</PartOf>
@@ -557,6 +557,7 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/48/go-up.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/help-about.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/help-contents.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/48/image-crop.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/insert-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/insert-link.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/insert-object.svg</Path>
@@ -571,6 +572,7 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-all.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-sender-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-reply-sender.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/48/mail-send.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/media-eject.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/media-playback-pause.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/48/media-playback-start.svg</Path>
@@ -622,6 +624,7 @@
             <Path fileType="data">/usr/share/icons/elementary/actions/64/edit-undo-rtl.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/64/edit-undo.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/64/event-new.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/actions/64/find-location.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/64/folder-new.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/64/go-down.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/actions/64/go-jump-rtl.svg</Path>
@@ -1144,6 +1147,7 @@
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-notifications.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-parental-controls.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-power.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-privacy-housekeeping.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-privacy.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-sharing.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/32/preferences-system-time.svg</Path>
@@ -1185,6 +1189,7 @@
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-network.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-parental-controls.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-power.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-privacy-housekeeping.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-privacy.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system-time.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/48/preferences-system.svg</Path>
@@ -1201,6 +1206,7 @@
             <Path fileType="data">/usr/share/icons/elementary/categories/64/preferences-system-network.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/64/preferences-system-parental-controls.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/64/preferences-system-power.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/categories/64/preferences-system-privacy-housekeeping.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/64/preferences-system-time.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/64/system-help.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/categories/symbolic/applications-development-symbolic.svg</Path>
@@ -1608,6 +1614,8 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/camera-web-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/colorimeter-colorhug-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/computer-apple-ipad-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/computer-convertible-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/computer-laptop-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/computer-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/display-projector-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/drive-harddisk-ieee1394-symbolic.svg</Path>
@@ -1627,6 +1635,7 @@
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/input-touchpad-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-flash-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-floppy-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-memory-sembolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-optical-bd-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-optical-cd-audio-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/symbolic/media-optical-dvd-symbolic.svg</Path>
@@ -2819,6 +2828,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/application-x-appliance-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/application-x-class-file-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/application-x-executable-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/application-x-firmware-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/application-xml-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/audio-x-generic-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/symbolic/credit-card-symbolic.svg</Path>
@@ -3460,6 +3470,8 @@
             <Path fileType="data">/usr/share/icons/elementary/status/64/image-loading.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/64/image-missing.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/64/network-error.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/64/night-light.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/64/process-completed.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/64/security-high.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/64/security-low.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/64/security-medium.svg</Path>
@@ -3515,7 +3527,11 @@
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/input-keyboard-capslock-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/input-keyboard-numlock-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/keyboard-brightness-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/location-active-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/location-disabled-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/location-inactive-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-attachment-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-forwarded-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-important-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-read-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/mail-replied-symbolic.svg</Path>
@@ -3553,11 +3569,7 @@
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-cellular-signal-weak-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-cellular-signal-weak-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-error-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-idle-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-offline-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-receive-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-transmit-receive-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-transmit-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-vpn-acquiring-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-vpn-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/symbolic/network-wired-acquiring-symbolic.svg</Path>
@@ -3646,12 +3658,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2019-05-17</Date>
-            <Version>5.0.3</Version>
+        <Update release="13">
+            <Date>2019-08-30</Date>
+            <Version>5.0.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
         </Update>
     </History>
 </PISI>
