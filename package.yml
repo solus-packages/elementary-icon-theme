@@ -1,13 +1,13 @@
 name       : elementary-icon-theme
-version    : 5.0.4
-release    : 13
+version    : 5.1.0
+release    : 14
 source     :
-    - https://github.com/elementary/icons/archive/5.0.4.tar.gz : 48f0ccb3796bfe2d02acab972ddbdd240c97b09f4b0e914aa1f49a453f86d1a0
+    - https://github.com/elementary/icons/archive/5.1.0.tar.gz : 20697cb7c66a7d3fbd46e50cd381023d9ef9f991146c9c80d5a8c6cfb58d86f4
 license    : GPL-3.0-or-later
 component  : desktop.theme
-summary    : An icon theme designed to be smooth, sexy, clear, and efficient.
+summary    : Icons from the Elementary Project
 description: |
-    An icon theme designed to be smooth, sexy, clear, and efficient.
+    Icons from the Elementary Project. An icon theme designed to be smooth, sexy, clear, and efficient.
 setup      : |
     %meson_configure -Dvolume_icons=false
 build      : |
