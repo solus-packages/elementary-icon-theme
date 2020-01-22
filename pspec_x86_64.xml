@@ -1276,6 +1276,7 @@
             <Path fileType="data">/usr/share/icons/elementary/cursors/9081237383d90e509aa00f00170e968f</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/9d800788f1b08800ae810202380a0822</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/X_cursor</Path>
+            <Path fileType="data">/usr/share/icons/elementary/cursors/all-scroll</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/arrow</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/bd_double_arrow</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/bottom_left_corner</Path>
@@ -1321,6 +1322,7 @@
             <Path fileType="data">/usr/share/icons/elementary/cursors/ll_angle</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/lr_angle</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/move</Path>
+            <Path fileType="data">/usr/share/icons/elementary/cursors/no-drop</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/pencil</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/pirate</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/plus</Path>
@@ -1344,8 +1346,11 @@
             <Path fileType="data">/usr/share/icons/elementary/cursors/ul_angle</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/ur_angle</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/v_double_arrow</Path>
+            <Path fileType="data">/usr/share/icons/elementary/cursors/vertical-text</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/watch</Path>
             <Path fileType="data">/usr/share/icons/elementary/cursors/xterm</Path>
+            <Path fileType="data">/usr/share/icons/elementary/cursors/zoom-in</Path>
+            <Path fileType="data">/usr/share/icons/elementary/cursors/zoom-out</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/audio-headphones.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/audio-headsets.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/devices/128/audio-input-microphone.svg</Path>
@@ -1802,6 +1807,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/128/application-x-shockwave-flash.svg</Path>
@@ -1977,6 +1983,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/16/application-x-shockwave-flash.svg</Path>
@@ -2160,6 +2167,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/24/application-x-shockwave-flash.svg</Path>
@@ -2346,6 +2354,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/32/application-x-shockwave-flash.svg</Path>
@@ -2530,6 +2539,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/48/application-x-shockwave-flash.svg</Path>
@@ -2715,6 +2725,7 @@
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-partial-download.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-php.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-python-bytecode.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-raw-disk-image.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-ruby.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-shellscript.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/mimes/64/application-x-shockwave-flash.svg</Path>
@@ -3444,6 +3455,10 @@
             <Path fileType="data">/usr/share/icons/elementary/status/48/network-idle.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/48/network-wired-disconnected.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/48/network-wireless-encrypted.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/48/network-wireless-signal-excellent.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/48/network-wireless-signal-good.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/48/network-wireless-signal-ok.svg</Path>
+            <Path fileType="data">/usr/share/icons/elementary/status/48/network-wireless-signal-weak.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/48/night-light-disabled-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/48/night-light-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/elementary/status/48/nm-no-connection.svg</Path>
@@ -3679,9 +3694,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2019-11-17</Date>
-            <Version>5.1.0</Version>
+        <Update release="15">
+            <Date>2020-01-21</Date>
+            <Version>5.2.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Algent Albrahimi</Name>
             <Email>algent@protonmail.com</Email>
